@@ -18,6 +18,10 @@ public class RestartBlocking {
     public static int num_queries_per_task = 3;
     public static int num_threads = 4;
 
+    /** public static int num_taks = 60;
+    public static int num_queries_per_task = 8;
+    public static int num_threads = 12; */
+
     Random rand = new Random(123456);
     int num_tuple = 50000;
     double max_value = 50.0f;
